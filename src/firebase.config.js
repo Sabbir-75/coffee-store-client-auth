@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCySLd-j0zfxN7fvQD667XIQDya6lOFdUI",
-  authDomain: "coffee-store-app-9bc2c.firebaseapp.com",
-  projectId: "coffee-store-app-9bc2c",
-  storageBucket: "coffee-store-app-9bc2c.firebasestorage.app",
-  messagingSenderId: "879115307468",
-  appId: "1:879115307468:web:ff30c229dc4e3e8ff17569"
+  apiKey:import.meta.env.VITE_apiKey,
+  authDomain:import.meta.env.VITE_authDomain,
+  projectId:import.meta.env.VITE_projectId,
+  storageBucket:import.meta.env.VITE_storageBucket,
+  messagingSenderId:import.meta.env.VITE_messagingSenderId,
+  appId:import.meta.env.VITE_appId,
 };
 
 
