@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       {
         path: "/users",
         loader: () => fetch("http://localhost:5000/users"),
-        Component: Users
+         Component: Users
       },
     ]
   },
